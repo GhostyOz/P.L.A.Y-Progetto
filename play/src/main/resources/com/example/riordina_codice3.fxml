@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="637.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.RiordinaCodice3controller"> 
+
+   <children>
+      <Label fx:id="titolo" layoutX="256.0" layoutY="14.0" text="ESERCIZIO 3" />
+      <Label fx:id="istruzione" layoutY="31.0" text="Riordina le istruzioni del programma per effettuare il conto alla rovescia ricorsivamente" />
+      <TextArea fx:id="Blocco3" editable="false" layoutX="8.0" layoutY="247.0" prefHeight="85.0" prefWidth="263.0" text="} else {&#10;System.out.print (num);&#10;contoAllaRovescia(num - 1);&#10;}&#10;      }&#10;}&#10;" />
+      <TextArea fx:id="Blocco1" editable="false" layoutX="11.0" layoutY="62.0" prefHeight="68.0" prefWidth="257.0" text="public static void contoAllaRovescia(int num) {&#10;if (num &lt;= 0) {&#10;System.out.println();&#10;   " />
+      <TextArea fx:id="Blocco2" editable="false" layoutX="11.0" layoutY="140.0" prefHeight="98.0" prefWidth="305.0" text="public class ContoAllaRovesciaRicorsivo {&#10;     public static void main(String[] args) {&#10;contoAllaRovescia (3);&#10;}&#10;" />
+      <TextArea fx:id="BloccoS1" editable="false" layoutX="329.0" layoutY="54.0" prefHeight="85.0" prefWidth="263.0" />
+      <TextArea fx:id="BloccoS2" editable="false" layoutX="332.0" layoutY="147.0" prefHeight="85.0" prefWidth="257.0" />
+      <TextArea fx:id="BloccoS3" editable="false" layoutX="316.0" layoutY="238.0" prefHeight="85.0" prefWidth="273.0" />
+      <Button fx:id="INVIO" layoutX="40.0" layoutY="350.0" mnemonicParsing="false" onAction="#invioRisposta" text="invio" />
+      <Button fx:id="SE" layoutX="273.0" layoutY="350.0" mnemonicParsing="false" onAction="#SalvaEdEsci" text="salva ed esci " />
+      <Button fx:id="SC" layoutX="461.0" layoutY="350.0" mnemonicParsing="false" onAction="#SalvaEContinua" text="salva e continua " />
+   </children>
+</AnchorPane>

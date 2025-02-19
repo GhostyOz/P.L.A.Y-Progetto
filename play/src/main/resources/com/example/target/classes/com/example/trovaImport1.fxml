@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.TrovaImport1Controller">
+   <children>
+   
+      <ToggleButton fx:id="R1" layoutX="37.0" layoutY="166.0" mnemonicParsing="false" onAction="#selectAnswer" prefHeight="34.0" prefWidth="134.0" text="Scanner" />
+      <ToggleButton fx:id="R2" layoutX="37.0" layoutY="223.0" mnemonicParsing="false" onAction="#selectAnswer2" prefHeight="34.0" prefWidth="134.0" text="Scanner,ArrayList" />
+      <ToggleButton fx:id="R3" layoutX="41.0" layoutY="280.0" mnemonicParsing="false" onAction="#selectAnswer3" prefHeight="34.0" prefWidth="126.0" text="RadioButton" />
+      <Button fx:id="INVIO" layoutX="252.0" layoutY="280.0" mnemonicParsing="false" onAction="#invioRisposta" prefHeight="34.0" prefWidth="96.0" text="invio" />
+      <Button fx:id="SE" layoutX="363.0" layoutY="280.0" mnemonicParsing="false" onAction="#SalvaEdEsci" prefHeight="34.0" prefWidth="96.0" text="salva ed esci" />
+      <Button fx:id="SC" layoutX="469.0" layoutY="280.0" mnemonicParsing="false" onAction="#SalvaEContinua" prefHeight="34.0" prefWidth="108.0" text="salva e continua " />
+      <TextArea editable="false" layoutX="21.0" layoutY="7.0" prefHeight="94.0" prefWidth="457.0" text="Fabbrica d'auto&#10;Una concessionaria si è accordata per la vendita di n auto che dovranno &#10;essere registrate su un file tramite l’inserimento della targa &#10; Quali import sono necessari per utilizzare queste funzionalità in java ? " />
+
+   </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="512.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.homeController">
+   <Button fx:id="BottoneEs1" layoutX="50.0" layoutY="65.0" mnemonicParsing="false" onAction="#switchToTrovaErrore" prefHeight="150.0" prefWidth="150.0" text="TROVA_ERRORE" textFill="RED" />
+   <Button fx:id="BottoneEs2" layoutX="356.0" layoutY="65.0" mnemonicParsing="false" onAction="#switchToTrovaImport" prefHeight="150.0" prefWidth="150.0" text="TROVA_IMPORT" textFill="#0011ff" />
+    <Button fx:id="BottoneEs3" layoutX="50.0" layoutY="263.0" mnemonicParsing="false" onAction="#switchToRiordinaCodice" prefHeight="150.0" prefWidth="150.0" text="RIORDINA_IL_CODICE" textFill="#27d744" />
+   <ProgressBar fx:id="Progresso" layoutX="50.0" layoutY="228.0" prefHeight="20.0" prefWidth="150.0" progress="0.0" />
+   <ProgressBar fx:id="ProgressoI" layoutX="356.0" layoutY="228.0" prefHeight="20.0" prefWidth="150.0" progress="0.0" />
+   <ProgressBar fx:id="ProgressoII" layoutX="50.0" layoutY="422.0" prefHeight="20.0" prefWidth="150.0" progress="0.0" />
+   <Button fx:id="BottoneEs31" layoutX="364.0" layoutY="276.0" mnemonicParsing="false" onAction="#switchToInfoAggiunte" prefHeight="32.0" prefWidth="127.0" text="INFO_AGGIUNTIVE">
+      <font>
+         <Font size="11.0" />
+      </font></Button>
+   <Button fx:id="CambiaAccount" layoutX="364.0" layoutY="325.0" mnemonicParsing="false" onAction="#switchToLogIn" prefHeight="32.0" prefWidth="127.0" text="Cambia Account" textFill="BLACK" />
+  
+   
+</AnchorPane>

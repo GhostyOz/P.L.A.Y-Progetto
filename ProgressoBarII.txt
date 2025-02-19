@@ -1,0 +1,5 @@
+utente 0.33
+utente 0.66
+utente 0.99
+OzanSaka 0.33
+OzanSaka 0.66
